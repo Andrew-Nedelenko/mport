@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="libs/animateCss/animate.css">
     <link rel="stylesheet" href="libs/bootstrap grid/bootstrap-grid.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/slider_swipper/css/swiper.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -17,7 +18,7 @@
                 <div class="ibanner_content">
                     <div class="ibanner_in">
                         <div class="ibanner_last">
-                            <img src="http://i.holder.com.ua/h/0/2/1476_0.gif" alt="">
+                            <img border="0" src="http://i.holder.com.ua/h/0/2/1476_0.gif" width="960" height="180" alt="">
                         </div>
                     </div>
                 </div>
@@ -133,6 +134,11 @@
                 </div>
             </div>                           
         </nav>
+        <div class="mobile_menu">
+            <i class="fa fa-search"></i>
+            <img src="img/sailor_logo.png" alt="">
+            <i class="fa fa-bars"></i>
+        </div>
         <div class="search_page">
             <input type="text" placeholder="Поиск по сайту">
             <p>Что ищут пользователи:</p>
@@ -151,53 +157,91 @@
                         <div class="ban_fix_container">
                         <div class="container">
                     <div class="row no-gutter">
-                        <div class="col-md-8">
-                            <div class="container_left">
-                                <img src="img/girl_main.png" alt="">
-                                <div class="pic_inner_container">
-                                    <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
-                                    <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                    <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
-                                    <h6>1.03.18</h6>
+                        <div class="col-md-8 col-xs-6">
+                            <div class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                    <div class="container_left">
+                                        <img src="img/girl_main.jpg" alt="">
+                                        <div class="pic_inner_container">
+                                            <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
+                                            <h3>Заголовок Далеко-далеко, за словесными.</h3>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <h6>1.03.18</h6>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                    <div class="container_left">
+                                        <img src="img/girl_main.jpg" alt="">
+                                        <div class="pic_inner_container">
+                                            <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
+                                            <h3>Заголовок Далеко-далеко, за словесными.</h3>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <h6>1.03.18</h6>
+                                        </div>
+                                    </div>                                        
+                                    </div>
+                                    <div class="swiper-slide">
+                                    <div class="container_left">
+                                        <img src="img/girl_main.jpg" alt="">
+                                        <div class="pic_inner_container">
+                                            <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
+                                            <h3>Заголовок Далеко-далеко, за словесными.</h3>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <h6>1.03.18</h6>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </div>
-                            </div>
+                                <!-- If we need pagination -->
+                                <!-- <div class="swiper-pagination"></div> -->
+
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-button-prev"><i class="fa fa-chevron-circle-left"></i></div>
+                                <div class="swiper-button-next"><i class="fa fa-chevron-circle-right"></i></div>
+
+                                <!-- If we need scrollbar -->
+                                <!-- <div class="swiper-scrollbar"></div> -->
+                            </div>                            
+                            
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-4 col-xs-6">
                             <div class="min_pic_cont">
-                                <img src="/img/w774.jpeg" alt="">
+                                <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
                                 <h6>1.02.12</h6>
                             </div>
                             <div class="min_pic_cont">
-                                <img src="/img/w774.jpeg" alt="">
+                                <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране. стране гласных и согласных живут рыбные тексты.</span>
-                                <h6>1.02.12</h6>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="min_pic_cont">
-                                <img src="/img/w774.jpeg" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
-                                <h6>1.02.12</h6>
-                            </div>
-                            <div class="min_pic_cont">
-                                <img src="/img/w774.jpeg" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
+                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
                                 <h6>1.02.12</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-                        </div>
+                    </div>
                         <div class="ban_container">
-                            for banners
+                        <img id="GraphicBanner_24427910" src="http://cdn.advertserve.com/images/adbetnet.advertserve.com/servlet/files/103436" style="width: 300px; height: 100px; border: 0px solid; " alt="Click Here!">
+                <img id="GraphicBanner_24427910" src="http://cdn.advertserve.com/images/adbetnet.advertserve.com/servlet/files/103436" style="width: 300px; height: 100px; border: 0px solid; " alt="Click Here!">
+                            <img id="GraphicBanner_24427910" src="http://cdn.advertserve.com/images/adbetnet.advertserve.com/servlet/files/103436" style="width: 300px; height: 100px; border: 0px solid; " alt="Click Here!">
                         </div>
                     </div>
                 </div>   
+        </section>
+        <section class="banner_sect">
+            <div class="banner_sect_inner">
+                <img id="GraphicBanner_24427910" src="http://cdn.advertserve.com/images/adbetnet.advertserve.com/servlet/files/103436" style="width: 300px; height: 100px; border: 0px solid; " alt="Click Here!">
+                <img id="GraphicBanner_24427910" src="http://cdn.advertserve.com/images/adbetnet.advertserve.com/servlet/files/103436" style="width: 300px; height: 100px; border: 0px solid; " alt="Click Here!">
+                <img id="GraphicBanner_24427910" src="http://cdn.advertserve.com/images/adbetnet.advertserve.com/servlet/files/103436" style="width: 300px; height: 100px; border: 0px solid; " alt="Click Here!">
+            </div>
+        </section>
+        <section class="second_sect">
+            
         </section>
         <br>
         <br>
@@ -250,6 +294,7 @@
         <br>
         <br>
     </div>
+    <script src="libs/slider_swipper/js/swiper.min.js"></script>
     <script src="libs/jquery/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
