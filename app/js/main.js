@@ -7,7 +7,7 @@ $(document).ready(function () {
       loop: true,
       centeredSlides: true,
       autoplay: {
-        delay: 566000,
+        delay: 4000,
         disableOnInteraction: false,
       },
       pagination: {
@@ -57,4 +57,48 @@ search_icon.click(function () {
     }
 });
 
-// доадаптивить main меню, сверстать еще 1 страницу
+const hamb = $('.fa-bars');
+const left_m = $('.left_menu');
+const body = $('body');
+const scOff = $('.shadow_cloak_off');
+const plusBtn = $('.fa-plus');
+let lmBool = true;
+hamb.click(function () {
+    if(lmBool)
+    {
+        scOff.addClass('shadow_cloak');
+        body.css({'margin-right': '300px', 'overflow-y':'hidden'});
+        left_m.css('right', '0');
+        lmBool = false;
+    }else{
+        scOff.removeClass('shadow_cloak');
+        body.css({'margin-right': '0', 'overflow-y':'scroll'});
+        left_m.css('right', '-300px');
+        lmBool = true;
+    }
+});
+
+scOff.click(function () {
+    if(!lmBool)
+    {
+     
+        body.css({'margin-right': '0', 'overflow-y':'scroll'});
+        left_m.css('right', '-300px');
+        scOff.removeClass('shadow_cloak');
+        lmBool = true;  
+    }else{
+        return 0;
+    }
+});
+
+plusBtn.click(function () {
+    if(!lmBool)
+    {
+        body.css({'margin-right': '0', 'overflow-y':'scroll'});
+        left_m.css('right', '-300px');
+        scOff.removeClass('shadow_cloak');
+        lmBool = true;
+    }else{
+        return 0;
+    }
+});

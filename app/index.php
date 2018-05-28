@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="libs/animateCss/animate.css">
     <link rel="stylesheet" href="libs/bootstrap grid/bootstrap-grid.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="libs/slider_swipper/css/swiper.min.css">
+    <link rel="stylesheet" href="libs/slider_swipper/css/swiper.css">
 </head>
 <body>
-    <div class="wrapper">
+<div class="shadow_cloak_off"></div>
+    <div class="wrapper">  
         <section class="head_banner">
             <div class="inner_banner">
                 <div class="ibanner_content">
@@ -25,7 +26,7 @@
             </div>
         </section>
         <section class="main_logo">
-            <img src="img/sailor_logo.png" alt="">
+            <img src="img/main_logo_black.svg" alt="">
         </section>
         <nav class="main_nav">
             <div class="alt_nav_main_logo">
@@ -39,7 +40,7 @@
                             <ul class="nav_menu">
                                 <li class="undrop_menu"><a href="#">Девушки</a>
                                     <ul class="dropmenu">
-                                        <li><a href="#">Красотка дня</a></li>
+                                        <li><a href="/daygirl.php">Красотка дня</a></li>
                                         <li><a href="#">Девушки</a></li>
                                         <li><a href="#">Секс</a></li>
                                         <li><a href="#">Отношения</a></li>
@@ -82,7 +83,7 @@
         </nav>
         <nav class="alt_nav">
             <div class="alt_nav_main_logo">
-                <a href="#"><img src="img/sailor_logo_white.png" alt=""></a>
+                <a href="#"><img src="img/main_logo_white.svg" alt=""></a>
                 <i class="fa fa-user"></i>
                 <i class="fa fa-search"></i>
             </div>
@@ -136,7 +137,7 @@
         </nav>
         <div class="mobile_menu">
             <i class="fa fa-search"></i>
-            <img src="img/sailor_logo_white.png" alt="">
+            <img src="img/main_logo_white.svg" alt="">
             <i class="fa fa-bars"></i>
         </div>
         <div class="search_page">
@@ -148,6 +149,37 @@
             <span>Далеко-далеко, за.</span>
             <span>Далеко-далеко, за.</span>
         </div>
+        <div class="left_menu">
+            <div class="inner_left_menu">
+                <img src="img/main_logo_white.svg" alt="">
+                <i class="fa fa-plus"></i>
+                <p><a href="#">Вход</a>/<a href="#">Регистрация</a></p>
+                <div class="left_menu_list">
+                <ul>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                    <li><a href="#">item</a></li>
+                </ul>
+                </div>
+                <div class="social_links_left_menu">
+                    <p>mport.ua в соцсетях</p>
+                        <ul>
+                            <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+                            <a href="#"><li><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
+                            <a href="#"><li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li></a>
+                            <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
+                        </ul>  
+                    </div>
+                <div class="left_menu_text">
+                    <h2>content</h2>
+                </div>
+            </div>
+        </div>
         <section class="main_section">
             <div class="main_title">
                 <h2>Девушки</h2>
@@ -157,14 +189,14 @@
                         <div class="ban_fix_container">
                         <div class="container">
                     <div class="row no-gutter">
-                        <div class="col-md-8 col-xs-6">
+                        <div class="col-lg-8 col-md-12">
                             <div class="swiper-container">
                                 <!-- Additional required wrapper -->
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
                                     <div class="swiper-slide">
                                     <div class="container_left">
-                                        <img src="img/girl_main.jpg" alt="">
+                                        <img src="img/girl3.jpg" alt="">
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
@@ -200,33 +232,37 @@
                                 <!-- <div class="swiper-pagination"></div> -->
 
                                 <!-- If we need navigation buttons -->
-                                <div class="swiper-button-prev"><i class="fa fa-chevron-circle-left"></i></div>
-                                <div class="swiper-button-next"><i class="fa fa-chevron-circle-right"></i></div>
+                                <div><i class="swiper-button-prev fa fa-chevron-circle-left"></i></div>
+                                <div><i class="swiper-button-next fa fa-chevron-circle-right"></i></div>
 
                                 <!-- If we need scrollbar -->
                                 <!-- <div class="swiper-scrollbar"></div> -->
                             </div>                            
                             
                         </div>
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-lg-4 col-md-12">
                             <div class="min_pic_cont">
                                 <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
+                                <span>Далеко-далеко за словесными горами, в стране гласных и</span>
                                 <h6>1.02.12</h6>
-                            </div>
-                            <div class="min_pic_cont">
                                 <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
+                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за</span>
                                 <h6>1.02.12</h6>
                             </div>
+                            <!-- <div class="min_pic_cont">
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
                     </div>
                         <div class="ban_container">
-                        <img border="0" src="http://i.holder.com.ua/h/2/9/1476_0.jpg" width="300" height="600" alt="">
+                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
                         </div>
                     </div>
                 </div>   
@@ -242,7 +278,9 @@
             <div class="second_sect_fixed_cont">
             <div class="row no-gutter">
                         <div class="col-md-12 col-sm-12">
-                            <div class="second_ld_inner"></div>                            
+                            <div class="second_ld_inner">
+                                <img src="img/girl2.jpg" alt="">
+                            </div>                            
                                 <div class="second_ld_text">
                                     <p>Лучшие девушки года в твоем смартфоне</p>
                                 </div>
@@ -356,13 +394,14 @@
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
                                 <h6>1.02.12</h6>
-                            </div>
-                            <div class="min_pic_cont">
                                 <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
                                 <h6>1.02.12</h6>
                             </div>
+                            <!-- <div class="min_pic_cont">
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -453,13 +492,14 @@
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
                                 <h6>1.02.12</h6>
-                            </div>
-                            <div class="min_pic_cont">
                                 <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
                                 <h6>1.02.12</h6>
                             </div>
+                            <!-- <div class="min_pic_cont">
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -551,13 +591,14 @@
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
                                 <h6>1.02.12</h6>
-                            </div>
-                            <div class="min_pic_cont">
                                 <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
                                 <h6>1.02.12</h6>
                             </div>
+                            <!-- <div class="min_pic_cont">
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -649,13 +690,14 @@
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
                                 <h6>1.02.12</h6>
-                            </div>
-                            <div class="min_pic_cont">
                                 <img src="img/girl1.png" alt="">
                                 <p>Далеко-далеко, за словесными.</p>
                                 <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
                                 <h6>1.02.12</h6>
                             </div>
+                            <!-- <div class="min_pic_cont">
+                                
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -711,7 +753,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="foot_inner_img">
-                                <img src="img/mPort_logo_white.svg" alt="">
+                                <img src="img/main_logo_white.svg" alt="">
                                 <p>Cайты UMHgroup</p>
                             </div>
                         </div>
