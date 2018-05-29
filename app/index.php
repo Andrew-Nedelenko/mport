@@ -153,18 +153,18 @@
             <div class="inner_left_menu">
                 <img src="img/main_logo_white.svg" alt="">
                 <i class="fa fa-plus"></i>
-                <p><a href="#">Вход</a>/<a href="#">Регистрация</a></p>
                 <div class="left_menu_list">
                 <ul>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
-                    <li><a href="#">item</a></li>
+                    <li><a href="#">Девушки</a></li>
+                    <li><a href="#">Лайфстайл</a></li>
+                    <li><a href="#">Здоровье</a></li>
+                    <li><a href="#">Технологии</a></li>
+                    <li><a href="#">В курсе</a></li>
+                    <li><a href="#">Видео</a></li>
+                    <li><a href="#">Тесты</a></li>
+                    <!-- <li><a href="#">item</a></li> -->
                 </ul>
+                <p><a href="#">Вход</a>/<a href="#">Регистрация</a></p>
                 </div>
                 <div class="social_links_left_menu">
                     <p>mport.ua в соцсетях</p>
@@ -180,9 +180,12 @@
                 </div>
             </div>
         </div>
+        <div class="up_button">
+            <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+        </div>
         <section class="main_section">
             <div class="main_title">
-                <h2>Девушки</h2>
+                <a href=""><h2>Девушки</h2></a>
             </div>
                 <div class="main_fixed_container">
                     <div class="fixed_container">
@@ -198,10 +201,11 @@
                                     <div class="container_left">
                                         <img src="img/girl3.jpg" alt="">
                                         <div class="pic_inner_container">
-                                            <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
-                                            <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
-                                            <h6>1.03.18</h6>
+                                            <a href=""><p>Красотка дня</p></a>
+                                            <a href=""><h3>Российская модель Анюта Рей</h3></a>
+                                            <a href=""><span>Ее заметили, а именно: директор модельного агентства в одном из столичных центров</span></a>
+                                            <h6>1.03.18 <a href="#">|</a></h6>
+                                            <h5>Автор</h5>
                                         </div>
                                     </div>
                                     </div>
@@ -209,10 +213,11 @@
                                     <div class="container_left">
                                         <img src="img/girl_main.jpg" alt="">
                                         <div class="pic_inner_container">
-                                            <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
-                                            <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
-                                            <h6>1.03.18</h6>
+                                        <a href=""><p>Красотка дня</p></a>
+                                            <a href=""><h3>Красотка дня: российская модель Анюта Рей</h3></a>
+                                            <a href=""><span>Ее заметили, а именно: директор модельного агентства в одном из столичных центров</span></a>
+                                            <h6>1.03.18 <a href="#">|</a></h6>
+                                            <h5>Автор</h5>
                                         </div>
                                     </div>                                        
                                     </div>
@@ -220,10 +225,11 @@
                                     <div class="container_left">
                                         <img src="img/girl_main.jpg" alt="">
                                         <div class="pic_inner_container">
-                                            <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
-                                            <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
-                                            <h6>1.03.18</h6>
+                                            <a href=""><p>Красотка дня</p></a>
+                                            <a href=""><h3>Красотка дня: российская модель Анюта Рей</h3></a>
+                                            <a href=""><span>Ее заметили, а именно: директор модельного агентства в одном из столичных центров</span></a>
+                                            <h6>1.03.18 <a href="#">|</a></h6>
+                                            <h5>Автор</h5>
                                         </div>
                                     </div>
                                     </div>
@@ -242,14 +248,20 @@
                         </div>
                         <div class="col-lg-4 col-md-12">
                             <div class="min_pic_cont">
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и</span>
-                                <h6>1.02.12</h6>
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за</span>
-                                <h6>1.02.12</h6>
+                                <div class="min_pic_cont_in">
+                                    <img src="img/girl1.png" alt="">
+                                    <p>Далеко-далеко, за словесными.</p>
+                                    <span>Далеко-далеко за словесными горами</span>
+                                    <h6>1.02.12 <a href="#">|</a></h6>
+                                    <h5>Автор</h5>
+                                </div>
+                                <div class="min_pic_cont_in">
+                                    <img src="img/girl1.png" alt="">
+                                    <p>Далеко-далеко, за словесными.</p>
+                                    <span>Далеко-далеко за словесными горами</span>
+                                    <h6>1.02.12 <a href="#">|</a></h6>
+                                    <h5>Автор</h5>
+                                </div>
                             </div>
                             <!-- <div class="min_pic_cont">
                                 
@@ -259,10 +271,20 @@
                 </div>
                     </div>
                         <div class="ban_container">
-                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
-                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
-                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
-                        <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                        <img src="http://ua2cdn.admixer.net/test1/21de5059-724a-4646-82f3-7c91f98d49ce/caad185b-da1c-4da0-800e-2a6f50b7489a.png" style="/* width: 300px; *//* height: 100%; */">
+                        <div class="side_block">
+                            <div class="side_block_in">
+                                <p>Опрос дня</p>
+                                <span>Самые красивые девушки?</span>
+                                <form>
+                                    <input type="radio" name="" value=""> Бдондинки<br>
+                                    <input type="radio" name="" value=""> Брюнетки<br>
+                                    <input type="radio" name="" value=""> Шатенки<br>
+                                    <button>Результаты</button>
+                                    <button>Голосовать</button>
+                                </form>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>   
@@ -290,20 +312,33 @@
             </div>
         </section>
 
-        <!-- <section class="info_grf">
+        <section class="info_grf">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="info_grf_list">
-                        <ul>
-                            <a href="#"><li>Красотка дня</li></a>
-                            <a href="#"><li>Герой дня</li></a>
-                            <a href="#"><li>Полезная еда</li></a>
-                            <a href="#"><li>Как накачаться</li></a>
-                            <a href="#"><li>Тесты</li></a>
-                        </ul>
+                        <div class="each_info_grf">
+                            <img src="img/1ic.svg" alt="">
+                            <p>Красотка дня</p>
+                        </div>
+                        <div class="each_info_grf">
+                            <img src="img/2ic.svg" alt="">
+                            <p>Герой дня</p>
+                        </div>
+                        <div class="each_info_grf">
+                            <img src="img/3ic.svg" alt="">
+                            <p>Полезная еда</p>
+                        </div>
+                        <div class="each_info_grf">
+                            <img src="img/4ic.svg" alt="">
+                            <p>Как накачаться</p>
+                        </div>
+                        <div class="each_info_grf">
+                            <img src="img/5ic.svg" alt="">
+                            <p>Тесты</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <!-- <div class="col-lg-2 col-md-1 col-sm-12">
                     <div class="social_links">
                         <ul>
                             <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
@@ -312,9 +347,10 @@
                             <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
                         </ul>  
                     </div>
-                </div>
+                </div> -->
             </div>
-        </section> -->
+        </section>
+
         
         <section class="head_banner1">
             <div class="inner_banner">
@@ -348,7 +384,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -359,7 +395,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>                                        
@@ -370,7 +406,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных.</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -390,14 +426,18 @@
                         </div>
                         <div class="col-md-4 col-xs-6">
                             <div class="min_pic_cont">
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
-                                <h6>1.02.12</h6>
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
-                                <h6>1.02.12</h6>
+                                <div class="min_pic_cont_in">
+                                        <img src="img/girl1.png" alt="">
+                                        <p>Далеко-далеко, за словесными.</p>
+                                        <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                        <h6>1.02.12</h6>
+                                    </div>
+                                    <div class="min_pic_cont_in">
+                                        <img src="img/girl1.png" alt="">
+                                        <p>Далеко-далеко, за словесными.</p>
+                                        <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                        <h6>1.02.12</h6>
+                                    </div>
                             </div>
                             <!-- <div class="min_pic_cont">
                                 
@@ -446,7 +486,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных,</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -457,7 +497,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>                                        
@@ -468,7 +508,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -488,14 +528,18 @@
                         </div>
                         <div class="col-md-4 col-xs-6">
                             <div class="min_pic_cont">
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
-                                <h6>1.02.12</h6>
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
-                                <h6>1.02.12</h6>
+                                <div class="min_pic_cont_in">
+                                    <img src="img/girl1.png" alt="">
+                                    <p>Далеко-далеко, за словесными.</p>
+                                    <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                    <h6>1.02.12</h6>
+                                </div>
+                                <div class="min_pic_cont_in">
+                                    <img src="img/girl1.png" alt="">
+                                    <p>Далеко-далеко, за словесными.</p>
+                                    <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                    <h6>1.02.12</h6>
+                                </div>
                             </div>
                             <!-- <div class="min_pic_cont">
                                 
@@ -545,7 +589,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -556,7 +600,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>                                        
@@ -567,7 +611,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -587,14 +631,18 @@
                         </div>
                         <div class="col-md-4 col-xs-6">
                             <div class="min_pic_cont">
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
-                                <h6>1.02.12</h6>
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
-                                <h6>1.02.12</h6>
+                                    <div class="min_pic_cont_in">
+                                        <img src="img/girl1.png" alt="">
+                                        <p>Далеко-далеко, за словесными.</p>
+                                        <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                        <h6>1.02.12</h6>
+                                    </div>
+                                    <div class="min_pic_cont_in">
+                                        <img src="img/girl1.png" alt="">
+                                        <p>Далеко-далеко, за словесными.</p>
+                                        <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                        <h6>1.02.12</h6>
+                                    </div>
                             </div>
                             <!-- <div class="min_pic_cont">
                                 
@@ -644,7 +692,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -655,7 +703,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>                                        
@@ -666,7 +714,7 @@
                                         <div class="pic_inner_container">
                                             <p>Рубрика Далеко-далеко за словесными горами в стране.</p>
                                             <h3>Заголовок Далеко-далеко, за словесными.</h3>
-                                            <span>Текст Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты.</span>
+                                            <span>Текст Далеко-далеко за словесными горами в стране гласных</span>
                                             <h6>1.03.18</h6>
                                         </div>
                                     </div>
@@ -686,18 +734,19 @@
                         </div>
                         <div class="col-md-4 col-xs-6">
                             <div class="min_pic_cont">
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в стране гласных и согласных живут рыбные тексты.</span>
-                                <h6>1.02.12</h6>
-                                <img src="img/girl1.png" alt="">
-                                <p>Далеко-далеко, за словесными.</p>
-                                <span>Далеко-далеко за словесными горами, в Далеко-далеко за словесными горами в стране.</span>
-                                <h6>1.02.12</h6>
+                                <div class="min_pic_cont_in">
+                                    <img src="img/girl1.png" alt="">
+                                    <p>Далеко-далеко, за словесными.</p>
+                                    <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                    <h6>1.02.12</h6>
+                                </div>
+                                <div class="min_pic_cont_in">
+                                    <img src="img/girl1.png" alt="">
+                                    <p>Далеко-далеко, за словесными.</p>
+                                    <span>Далеко-далеко за словесными горами, в стране гласных и</span>
+                                    <h6>1.02.12</h6>
+                                </div>
                             </div>
-                            <!-- <div class="min_pic_cont">
-                                
-                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -722,42 +771,18 @@
 
         </section>
 
-        <!-- <section class="info_grf">
-            <div class="row">
-                <div class="col-md-10">
-                    <div class="info_grf_list">
-                        <ul>
-                            <a href="#"><li>Красотка дня</li></a>
-                            <a href="#"><li>Герой дня</li></a>
-                            <a href="#"><li>Полезная еда</li></a>
-                            <a href="#"><li>Как накачаться</li></a>
-                            <a href="#"><li>Тесты</li></a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="social_links">
-                        <ul>
-                            <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
-                            <a href="#"><li><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
-                            <a href="#"><li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li></a>
-                            <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
-                        </ul>  
-                    </div>
-                </div>
-            </div>
-        </section> -->
+        
         <footer class="footer">
             <div class="sizer_foot">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="foot_inner_img">
                                 <img src="img/main_logo_white.svg" alt="">
                                 <p>Cайты UMHgroup</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="foot_inner_text">
                                 <p>Спецпроекты</p>
                                 <span>Далеко-далеко</span>
@@ -765,7 +790,7 @@
                                 <span>Далеко-далеко</span>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                         <div class="foot_inner_text">
                                 <p>Спецпроекты</p>
                                     <span>Письма в редацию: </span>
@@ -776,7 +801,7 @@
                                     <span>support@mport.ua</span>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                         <div class="foot_inner_text">
                                 <p>Спецпроекты</p>
                                     <span>Письма в редацию: </span>

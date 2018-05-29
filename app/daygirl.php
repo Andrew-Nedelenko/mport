@@ -187,40 +187,192 @@
                 <h2>Девушка дня</h2>
             </div>
                 <div class="main_fixed_container">
-                    <div class="fixed_container">
+                    <div class="fixed_container-add">
                         <div class="ban_fix_container">
                         <div class="container">
                     <div class="row no-gutter">
                         <div class="col-lg-12 col-md-12">
-                           <div class="state_inner">
-                               <img src="img\girl3.jpg" alt="">
-                               <p>Далеко-далеко за словесными горами в стране гласных и согласных.</p>
-                               <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
-                                    Заголовок эта запятой злых строчка буквоград, то необходимыми коварный текстов его подзаголовок города путь, буквенных своих сих своего! 
-                                   Предупредила великий курсивных последний. Послушавшись последний собрал о все наш дал рекламных?</span>
-                                   <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
-                                    Заголовок эта запятой злых строчка буквоград, то необходимыми коварный текстов его подзаголовок города путь, буквенных своих сих своего! 
-                                   Предупредила великий курсивных последний. Послушавшись последний собрал о все наш дал рекламных?</span>
-                                   <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
-                                    Заголовок эта запятой злых строчка буквоград, то необходимыми коварный текстов его подзаголовок города путь, буквенных своих сих своего! 
-                                   Предупредила великий курсивных последний. Послушавшись последний собрал о все наш дал рекламных?</span>
-                                   <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
-                                    Заголовок эта запятой злых строчка буквоград, то необходимыми коварный текстов его подзаголовок города путь, буквенных своих сих своего! 
-                                   Предупредила великий курсивных последний. Послушавшись последний собрал о все наш дал рекламных?</span>
-                                   <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
-                                    Заголовок эта запятой злых строчка буквоград, то необходимыми коварный текстов его подзаголовок города путь, буквенных своих сих своего! 
-                                   Предупредила великий курсивных последний. Послушавшись последний собрал о все наш дал рекламных?</span>
-                                   <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
-                                    Заголовок эта запятой злых строчка буквоград, то необходимыми коварный текстов его подзаголовок города путь, буквенных своих сих своего! 
-                                   Предупредила великий курсивных последний. Послушавшись последний собрал о все наш дал рекламных?</span>
+                             <div class="article_inner">
+                                 <div class="art_upper_text">
+                                     <div class="art_upper_text_in">
+                                         <p>Красотка дня: фитнес-модель Тамра Д</p>
+                                        <span>Прежде, чем утонуть в океане эротики, посмотри, какие 
+                                        упражнения помогают Тамре Д выглядеть настолько аппетитной:</span>
+                                        <h6>28.03.2018</h6>
+                                        <div class="art_social_icon">
+                                            <ul>
+                                                <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
+                                            </ul>
+                                        </div>
+                                        <div class="art_img_cont">
+                                            <img src="img\girl3.jpg" alt="">
+                                            <p>Да, ты все правильно понял: фамилия красавицы состоит из одной буквы. 
+                                   Вполне вероятно, что это просто псевдоним. Но от этого Тамра не менее сексуальна. 
+                                   А вот как модель ведет себя, когда оказывается в объятиях природы и солнечного заката:
+                                   Ну и, наконец, вот она — долгожданная галерея. Фото тоже не лишены экзотики, которой ты явно только что облучился, просматривая предыдущие видео:</p>
                                    <h6>6.06.15</h6>
-                           </div>                             
-                    </div>
+                                        </div>
+                                     </div>  
+                                 </div>
+                             </div>
+                        </div>
+
+
                 </div>
+
+                <div class="row no-gutter">
+                        <div class="col-lg-12 col-md-12">
+                             <div class="article_inner">
+                                 <div class="art_upper_text">
+                                     <div class="art_upper_text_in">
+                                         <p>Красотка дня: фитнес-модель Тамра Д</p>
+                                        <span>Прежде, чем утонуть в океане эротики, посмотри, какие 
+                                        упражнения помогают Тамре Д выглядеть настолько аппетитной:</span>
+                                        <h6>28.03.2018</h6>
+                                        <div class="art_social_icon">
+                                            <ul>
+                                                <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
+                                            </ul>
+                                        </div>
+                                        <div class="art_img_cont">
+                                            <img src="img\girl3.jpg" alt="">
+                                            <p>Да, ты все правильно понял: фамилия красавицы состоит из одной буквы. 
+                                   Вполне вероятно, что это просто псевдоним. Но от этого Тамра не менее сексуальна. 
+                                   А вот как модель ведет себя, когда оказывается в объятиях природы и солнечного заката:
+                                   Ну и, наконец, вот она — долгожданная галерея. Фото тоже не лишены экзотики, которой ты явно только что облучился, просматривая предыдущие видео:</p>
+                                   <h6>6.06.15</h6>
+                                        </div>
+                                     </div>  
+                                 </div>
+                             </div>
+                        </div>
+
+
+                </div>
+
+                <div class="row no-gutter">
+                        <div class="col-lg-12 col-md-12">
+                             <div class="article_inner">
+                                 <div class="art_upper_text">
+                                     <div class="art_upper_text_in">
+                                         <p>Красотка дня: фитнес-модель Тамра Д</p>
+                                        <span>Прежде, чем утонуть в океане эротики, посмотри, какие 
+                                        упражнения помогают Тамре Д выглядеть настолько аппетитной:</span>
+                                        <h6>28.03.2018</h6>
+                                        <div class="art_social_icon">
+                                            <ul>
+                                                <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
+                                            </ul>
+                                        </div>
+                                        <div class="art_img_cont">
+                                            <img src="img\girl3.jpg" alt="">
+                                            <p>Да, ты все правильно понял: фамилия красавицы состоит из одной буквы. 
+                                   Вполне вероятно, что это просто псевдоним. Но от этого Тамра не менее сексуальна. 
+                                   А вот как модель ведет себя, когда оказывается в объятиях природы и солнечного заката:
+                                   Ну и, наконец, вот она — долгожданная галерея. Фото тоже не лишены экзотики, которой ты явно только что облучился, просматривая предыдущие видео:</p>
+                                   <h6>6.06.15</h6>
+                                        </div>
+                                     </div>  
+                                 </div>
+                             </div>
+                        </div>
+
+
+                </div>
+
+                <div class="row no-gutter">
+                        <div class="col-lg-12 col-md-12">
+                             <div class="article_inner">
+                                 <div class="art_upper_text">
+                                     <div class="art_upper_text_in">
+                                         <p>Красотка дня: фитнес-модель Тамра Д</p>
+                                        <span>Прежде, чем утонуть в океане эротики, посмотри, какие 
+                                        упражнения помогают Тамре Д выглядеть настолько аппетитной:</span>
+                                        <h6>28.03.2018</h6>
+                                        <div class="art_social_icon">
+                                            <ul>
+                                                <a href="#"><li><i class="fa fa-facebook-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-twitter-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-google-plus-square" aria-hidden="true"></i></li></a>
+                                                <a href="#"><li><i class="fa fa-rss-square" aria-hidden="true"></i></li></a>
+                                            </ul>
+                                        </div>
+                                        <div class="art_img_cont">
+                                            <img src="img\girl3.jpg" alt="">
+                                            <p>Да, ты все правильно понял: фамилия красавицы состоит из одной буквы. 
+                                   Вполне вероятно, что это просто псевдоним. Но от этого Тамра не менее сексуальна. 
+                                   А вот как модель ведет себя, когда оказывается в объятиях природы и солнечного заката:
+                                   Ну и, наконец, вот она — долгожданная галерея. Фото тоже не лишены экзотики, которой ты явно только что облучился, просматривая предыдущие видео:</p>
+                                   <h6>6.06.15</h6>
+                                        </div>
+                                     </div>  
+                                 </div>
+                             </div>
+                        </div>
+
+
+                </div>
+
+                
                     </div>
                         
                     </div>
                     <div class="ban_container_1">
+                            
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
+                                
+                           
+                        </div>
+                </div>   
+        </section>
+
+
+
+        <!-- <div class="ban_container_2">
                             <div class="ban_conteiner_1_in">
                                 <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
                                 <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
@@ -232,10 +384,8 @@
                                 <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
                                 <img border="0" src="http://i.holder.com.ua/h/9/2/1461_0.jpg" width="300" height="115" alt="">
                             </div>
-                        </div>
-                </div>   
-        </section>
-        <footer class="footer">
+                        </div> -->
+                <footer class="footer">
             <div class="sizer_foot">
                 <div class="container-fluid">
                     <div class="row">
@@ -278,7 +428,7 @@
                     </div>
                 </div>
             </div>
-        </footer>        
+        </footer>
     </div>
     <script src="libs/bootstrap grid/bootstrap.min.js"></script>
     <script src="libs/slider_swipper/js/swiper.min.js"></script>

@@ -67,12 +67,12 @@ hamb.click(function () {
     if(lmBool)
     {
         scOff.addClass('shadow_cloak');
-        body.css({'margin-right': '300px', 'overflow-y':'hidden'});
+        body.css({'position': 'relative','right': '260px', 'overflow-y':'hidden'});
         left_m.css('right', '0');
         lmBool = false;
     }else{
         scOff.removeClass('shadow_cloak');
-        body.css({'margin-right': '0', 'overflow-y':'scroll'});
+        body.css({'position': 'static','right': '0', 'overflow-y':'scroll'});
         left_m.css('right', '-300px');
         lmBool = true;
     }
@@ -82,7 +82,7 @@ scOff.click(function () {
     if(!lmBool)
     {
      
-        body.css({'margin-right': '0', 'overflow-y':'scroll'});
+        body.css({'right': '0', 'overflow-y':'scroll'});
         left_m.css('right', '-300px');
         scOff.removeClass('shadow_cloak');
         lmBool = true;  
@@ -94,7 +94,7 @@ scOff.click(function () {
 plusBtn.click(function () {
     if(!lmBool)
     {
-        body.css({'margin-right': '0', 'overflow-y':'scroll'});
+        body.css({'right': '0', 'overflow-y':'scroll'});
         left_m.css('right', '-300px');
         scOff.removeClass('shadow_cloak');
         lmBool = true;
@@ -102,3 +102,17 @@ plusBtn.click(function () {
         return 0;
     }
 });
+
+const arrow_up = $(".up_button");
+$(window).on('scroll', function () {
+    if($(window).scrollTop() < 550)
+    {
+        arrow_up.css('right', '-70px');
+    }else
+    {
+        arrow_up.css('right', '70px');
+    }
+});
+arrow_up.click(function () {
+   $("html, body").animate({scrollTop:0}, 'slow');
+})

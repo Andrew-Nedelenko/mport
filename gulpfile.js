@@ -26,7 +26,7 @@ gulp.task('connect-sync', function() {
   }, function (){
     browserSync({
       injectChanges: true,
-      proxy: 'mport'
+      proxy: 'localhost:3000'
     });
   });
 
