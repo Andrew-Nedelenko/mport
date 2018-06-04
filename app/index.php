@@ -95,7 +95,7 @@
                             <ul class="nav_menu">
                                 <li class="undrop_menu"><a href="#">Девушки</a>
                                     <ul class="dropmenu">
-                                        <li><a href="#">Красотка дня</a></li>
+                                        <li><a href="/article.php">Красотка дня</a></li>
                                         <li><a href="#">Девушки</a></li>
                                         <li><a href="#">Секс</a></li>
                                         <li><a href="#">Отношения</a></li>
@@ -156,7 +156,7 @@
                 <i class="fa fa-plus"></i>
                 <div class="left_menu_list">
                     <ul>
-                        <li><a href="#">Девушки</a></li>
+                        <li><a href="/article.php">Девушки</a></li>
                         <li><a href="#">Лайфстайл</a></li>
                         <li><a href="#">Здоровье</a></li>
                         <li><a href="#">Технологии</a></li>

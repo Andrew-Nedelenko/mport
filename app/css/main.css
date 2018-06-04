@@ -62,8 +62,8 @@ input:checked {
   background-color: rgba(0, 0, 0, 0.698);
   transition: .3s; }
 
-.gallery_img_cont_1 {
-  display: block; }
+.gallery_img_cont {
+  display: none; }
 
 .gallery_img_cont_2 {
   display: none; }
@@ -82,19 +82,48 @@ input:checked {
   height: auto;
   padding: 0;
   display: block;
-  margin: 7% auto 0 auto;
+  margin: 7% auto 7% auto;
   position: relative;
-  transition: .3s; }
+  transition: .3s;
+  cursor: pointer; }
+
+.gallery_wrap i {
+  font-size: 2em; }
 
 .left_side {
   position: absolute;
-  left: 20px;
-  top: 50%; }
+  right: 53%;
+  bottom: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  transition: .3s; }
 
 .right_side {
   position: absolute;
-  right: 20px;
-  top: 50%; }
+  right: 47%;
+  bottom: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  transition: .3s; }
+
+.remove_side {
+  position: absolute;
+  right: 50%;
+  bottom: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0); }
+
+.fa-arrow-left {
+  color: white;
+  cursor: pointer; }
+
+.fa-arrow-right {
+  color: white;
+  cursor: pointer; }
+
+.fa-undo {
+  color: white;
+  cursor: pointer; }
 
 .shadow_cloak {
   position: fixed;
@@ -2411,7 +2440,8 @@ input:checked {
 .img_gallery {
   width: 100%;
   height: 100%;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
 
 .img_gallery img {
   display: block;
@@ -3488,7 +3518,21 @@ input:checked {
     padding: 10px 10px 10px 10px;
     height: 100%;
     position: relative;
-    background-color: white; } }
+    background-color: white; }
+  .left_side {
+    position: absolute;
+    right: 60%;
+    bottom: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    transition: .3s; }
+  .right_side {
+    position: absolute;
+    right: 40%;
+    bottom: 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    transition: .3s; } }
 
 @media (max-width: 960px) {
   .head_banner {

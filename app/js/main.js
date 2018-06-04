@@ -127,34 +127,64 @@ $(document).ready(function () {
     });
     });
 
-// const gallery_img = $(".img_gallery");
-// const gallery_wrap_off = $(".gallery_wrap_off");
-// let img_numb = 1;
-// let gallery_img_cont = $('.gallery_img_cont_' + 1);
-// const left_bnt = $('.left_side');
-// const right_bnt = $('.right_side');
-// gallery_img.click(function () {
-//     console.log(img_numb);
-//     gallery_wrap_off.css('display', 'block');
-//     gallery_wrap_off.addClass('gallery_wrap');
-//     body.css({'position': 'relative', 'overflow-y':'hidden'});
-// });
+const gallery_img = $(".img_gallery");
+const gallery_wrap_off = $(".gallery_wrap_off");
+let img_numb = 1;
+let gallery_img_cont = $('.gallery_img_cont_' + img_numb);
+let each_img = $('#each_img');
+let bool_gal_wrap = true;
+const left_bnt = $('.left_side');
+const right_bnt = $('.right_side');
+const remove_gal = $('.remove_side');
+gallery_img.click(function () {
+    gallery_wrap_off.css('display', 'block');
+    gallery_img_cont.css('display', 'block');
+    gallery_wrap_off.addClass('gallery_wrap');
+    body.css({'position': 'relative', 'overflow-y':'hidden'});
+    bool_gal_wrap = false;
+});
 
-// left_bnt.click(function () {
-//     gallery_img_cont.css('display', 'block');
-//     console.log(img_numb);
-//     img_numb--;
-//     console.log(img_numb);
-// gallery_img_cont.css('display', 'block');
-// });
-
-// right_bnt.click(function () {
-//     gallery_img_cont.css('display', 'none');
-//     gallery_img_cont = $('.gallery_img_cont_' + 2);
-//     gallery_img_cont.css('display', 'block');
+left_bnt.click(function () {
+    img_numb--;
+    if(img_numb < 1)
+    {
+        img_numb = 6;
+    }
+    each_img.attr('src', 'img/girl' + img_numb + '.jpg');
     
-//     console.log(img_numb);
-//     console.log(gallery_img_cont);
-//     gallery_img_cont.css('display', 'block');
-//     gallery_img_cont.css('display', 'block');
-// });
+});
+
+right_bnt.click(function () {
+    img_numb++;
+    if(img_numb > 6)
+    {
+        img_numb = 1;
+    }
+    each_img.attr('src', 'img/girl' + img_numb + '.jpg');
+
+});
+
+each_img.click(function () {
+    img_numb++;
+    if(img_numb > 6)
+    {
+        img_numb = 1;
+    }
+    each_img.attr('src', 'img/girl' + img_numb + '.jpg');
+
+});
+
+remove_gal.click(function () {
+    if(!bool_gal_wrap)
+    {
+        gallery_wrap_off.css('display', 'none');
+    gallery_img_cont.css('display', 'none');
+    gallery_wrap_off.removeClass('gallery_wrap');
+    body.css({'position': 'static', 'overflow-y':'scroll'});
+        bool_gal_wrap = true;
+    }
+    else
+    {
+        return 0;
+    }
+});

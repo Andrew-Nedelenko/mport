@@ -16,9 +16,9 @@
     <div class="shadow_cloak_off"></div>
     <div class="gallery_wrap_off">
         <div class="gallery_img_cont_1">
-            <img src="img/girl2.jpg" alt="">
+            <img id="each_img" src="img/girl1.jpg" alt="">
         </div>
-        <div class="gallery_img_cont_2">
+        <!-- <div class="gallery_img_cont_2">
             <img src="img/girl3.jpg" alt="">
         </div>
         <div class="gallery_img_cont_3">
@@ -29,10 +29,10 @@
         </div>
         <div class="gallery_img_cont_5">
             <img src="img/girl2.jpg" alt="">
-        </div>
-        
-        <button class="left_side">1</button>
-        <button class="right_side">2</button>
+        </div> -->
+        <button class="remove_side"><i class="fa fa-undo" aria-hidden="true"></i></button>
+        <button class="left_side"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+        <button class="right_side"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
     </div>
     <div class="wrapper">  
         <section class="head_banner">
